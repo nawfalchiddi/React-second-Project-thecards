@@ -34,7 +34,7 @@ function Hero() {
     function AddCard(){
 setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
     }
-    
+
     function onIncrease(id){
         setProducts(  Products.map(item=>
             item.id === id ? {...item, quantity :  item.quantity + 1} : item
@@ -79,6 +79,7 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
           onIncrease={()=>onIncrease(item.id)}
           onDecrease={()=>onDecrease(item.id)}
           rm={()=>Remove(item.id)}
+          total=
           
           />
         ))
