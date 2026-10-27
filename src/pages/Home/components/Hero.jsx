@@ -79,7 +79,7 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
           onIncrease={()=>onIncrease(item.id)}
           onDecrease={()=>onDecrease(item.id)}
           rm={()=>Remove(item.id)}
-          total=
+          total={ Products.reduce((total,e)=> total + e.quantity,0) }
           
           />
         ))
@@ -88,6 +88,7 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
 
 </div>
 <button className='inputadd' onClick={AddCard}>Add a card</button>
+<button >show total : {Products.reduce((total,e)=> total + e.quantity,0)} </button>
 
        
         </section>
