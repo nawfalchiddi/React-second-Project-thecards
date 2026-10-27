@@ -1,3 +1,9 @@
+.thebigconta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .heroSection{
 display: flex;
 width: 100%;
@@ -35,6 +41,7 @@ border: none;
 }
 
 .conta2BOx{
+    
     align-items: center;
     margin-top: 5vh;
     background-color: rgb(246, 247, 248);
@@ -55,7 +62,7 @@ border: none;
     background-color: aliceblue;
     height: 10vh;
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-around;
     align-items: center;
 }

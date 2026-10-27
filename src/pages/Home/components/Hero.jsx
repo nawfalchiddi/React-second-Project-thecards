@@ -56,7 +56,7 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
     
     
     return(
-        <section>
+        <section className='thebigconta'>
          
                 <div className='heroSection'>
       <div className='boxAbout'>
