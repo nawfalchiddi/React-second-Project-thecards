@@ -1,0 +1,50 @@
+.heroSection{
+display: flex;
+width: 100%;
+justify-content: space-around;
+margin-top: 15vh;
+align-items: center;
+}
+.boxAbout{
+width: 45%;
+}
+.boxAbout img{
+    width: 100%;
+    border-radius: 10px;
+}
+.secondbox{
+width: 45%;
+}
+.firstbtn{
+width: 30%;
+height: 5vh;
+background-color: blueviolet;
+color: white;
+border-radius: 10px;
+border: none;
+
+}
+
+.conta2{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.conta2BOx{
+    align-items: center;
+    margin-top: 5vh;
+    background-color: rgb(246, 247, 248);
+    width: 70%;
+    border-radius: 10px;
+}
+.divbtns{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
