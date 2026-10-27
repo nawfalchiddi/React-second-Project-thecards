@@ -70,7 +70,11 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
             <button className='firstbtn'>explore your cards</button>
            </div>
         </div>
-
+<div className='controls'>
+      <button className='total' > Total : {Products.reduce((total,e)=> total + e.quantity,0)} </button>
+<button className='inputadd' onClick={AddCard}>Add a card</button>
+</div>
+  
 <div className='conta2'>
    
       {
@@ -87,8 +91,6 @@ setProducts([...Products,{id:4,name:'backpack',price:100,quantity:90}])
 
 
 </div>
-<button className='inputadd' onClick={AddCard}>Add a card</button>
-<button >show total : {Products.reduce((total,e)=> total + e.quantity,0)} </button>
 
        
         </section>
