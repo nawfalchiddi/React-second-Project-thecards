@@ -50,11 +50,24 @@ border: none;
 }
 
 .controls{
-    
+    margin-top: 4vh;
+    background-color: aliceblue;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 .total{
-    
+width: 10%;
+
 }
 .inputadd{
-    
+height: 6vh;
+border-radius: 10px;
+border: 1px solid lightblue;
+}
+
+.theiamges{
+    width: 100%;
 }

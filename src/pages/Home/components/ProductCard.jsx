@@ -1,6 +1,7 @@
 function ProductCard(props) {
   return (
     <div className="conta2BOx">
+        <img className="theiamges" src={props.img} alt="" />
       <h1>{props.name}</h1>
       <p>PRICE :  {props.price}</p>
       <div className="divbtns">
